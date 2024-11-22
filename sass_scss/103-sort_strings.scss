@@ -1,0 +1,8 @@
+// Use the list from the 103-sort_list.scss file
+@use '103-sort_list' as list;
+
+// Sort the list
+$sorted_list: sort(list.$list_to_sort);
+
+// Print the sorted list using @debug
+@debug $sorted_list;
